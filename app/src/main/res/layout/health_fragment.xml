@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/saglik" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Sağlıklı Olmak İçin 5 İpucu"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+
+       <TextView android:scrollbars="vertical"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="1. Dengeli Bir Egzersiz Programı\n
+Her gün ortalama hızda (ama yavaş değil) 30 dakika yürümek size 1500 kalori yaktırır. Yılda 78 bin kaloriden bu kadar kolay kurtulabilirsiniz. Yaş ve vücut yapınıza uygun daha ağır egzersiz programları ise kalp ve damar sağlığınızı, ciğerlerini korumanıza yardımcı olur. Vücudunuza şekil vermek için bir kaç set ağırlık çalışabilirsiniz.\n
+
+2. Aileyle Spor Yapmak\n
+Sadece düzenli egzersizler ile yetinmeyip tün ailenizin sağlığı için haftalık spor turları düzenleyebilirsiniz. Bu ormanda bir keşif yürüyüşü ya da aile arası bir basketbol maçı olabilir.\n
+
+3. İp Atlamak\n
+Her zaman en iyi vücut çalıştırma yöntemlerinden biri olan ip atlamak bel çevresi gibi kurtulmanın zor olduğu yağları yakmanızı sağlar. Fazla değil günde 10 dakika ip atlayın.\n
+
+4. Egzersiz Arkadaşı Bulun\n
+Çoğu insan tek başına spor yapmaktan sıkılır ve düzen zamanla bozulur. Bunu engellemek için arkadaşlarınızdan yardım alabilir ve spor için gereken motivasyonu sağlayabilirsiniz\n
+
+5. Su Egzersizleri\n
+Eğer bir havuza üye olmak gibi bir imkanınız varsa seçeceğiniz su hareketleri ile bel ve sırt ağrılarından kolayca kurutulabilirsiniz. Üstelik suda yapılan egzersizler vücudu en iyi biçimde şekillendirir." />
+
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">gyk401</string>
+    <string name="title_home">Home</string>
+    <string name="title_health">Sağlık</string>
+    <string name="title_diet">Diyet</string>
+</resources>
